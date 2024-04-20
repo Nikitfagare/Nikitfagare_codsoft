@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/code-slash.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/calculator.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/website.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/mail.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/phone.css' rel='stylesheet'>
+
+    <title>Portfoilo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="#" class="logo">Portfoilo</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="info">
+            <h2>Hello I'm</h2>
+            <h1>Harshvardhan Patil</h3>
+            <h2>I'm Passionate About Web Development </h2>
+        </div>   
+    </div> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://img.freepik.com/premium-vector/successful-business-man-dressed-stylish-suit-with-confidence-pointing-himself-with-fingers-proud-happy-high-self-esteem-concept-illustration_270158-315.jpg"/>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p id="about">I am Harshvardhan Patil,I have been completing my Bachelor Degree from Sinhgad Academy of Engineering College.<br>
+                        I have the tendency to know each and every thing which I have been learning.Talking about my skills which I have been implemented within me are 
+                        Communication,Hardworking,Self-Motivated,Enthusiastic.
+                        
+                    </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>MySQL</li>
+                            <li>Python</li>  
+                            <li>C++</li>                              
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Engineering</span><br>Sinhgad Academy Of Engineering Pune</li>
+                            <li><span>HSC</span><br>Maharashtra State Board 2021</li>
+                            <li><span>SSC</span><br>Maharashtra State Board 2019</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="course">
+        <div class="container">
+            <h1 class="sub">
+                Courses
+            </h1>
+                <div class="course-list">
+                    <div>
+                        <h3>Web Development</h3>
+                        <p>The training included HTML, CSS, Bootstrap, DBMS, PHP ,JS, React
+                          and a Project module
+                        </p>
+                    </div>
+                    <div>
+                        <h3>Cloud Computing</h3>
+                        <p>The training included introduction to<br>
+                           AWS,AWS Identity & Access
+                            Management,S3,VPC,EC2,Database,Advanced Services, <br>
+                            Security &Management Services, Billing & Pricing and a Project
+                        </p>
+                    </div>
+                    <div>
+                        <h3>JPMorgan Chase & Co. Agile Job Simulation</h3>
+                        <p>
+                          Drafted eight user stories using Trello and prioritized them by estimating the relative level of effort required.
+                        </p>
+                        <p>
+                           Ran the Scrum team’s daily standup to effectively plan the day and energize the team members.
+                        </p>
+                        <p>
+                            Conducted a sprint review to gather feedback on the Scrum’s work and a sprint<br>
+                            retrospective to align on opportunities for improvement in future sprints.
+                        </p>
+                    </div>
+                </div>    
+        </div>
+    </div>
+
+    <div id="project">
+        <div class="container">
+            <h1 class="sub">
+                Projects
+            </h1> 
+            <div class="project-list">
+                <div>
+                    <i class="gg-website"></i>
+                    <h3>PG-Life web application</h3>
+                    <p>An interactive PG Hostel Management website.</p>
+                </div>
+                <div>
+                    <i class="gg-code-slash"></i>
+                    <h3>Face recognition based attendance system</h3>
+                    <p>Attendance System for collecting daily attendance using face
+                        detection</p>
+                </div>
+                <div>
+                    <i class="gg-calculator"></i>
+                    <h3>Calculator using HTML,CSS,JS</h3>
+                    <p>Basic calculator for addition, subtraction, division and
+                        multiplication.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact</h1>
+                    <p><i class="gg-mail"></i>harshvardhanpatil@gmail.com</p>
+                    <p><i class="gg-phone"></i>  9586762436</p>
+                    <a href="cv.pdf" download  class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Harshvardhan Patil</p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
